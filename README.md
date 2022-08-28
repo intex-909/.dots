@@ -1,14 +1,4 @@
-# Installation script for fresh installed debian based machines
-
-### Packages that will be installed
-- git
-- curl
-- unzip
-- zsh
-- neovim
-- bat
-- stow
-- Fast Node Manager (fnm)
+## Installation script for fresh installed debian based machines
 
 ### Usage:
 Clone repository into home directory
@@ -19,7 +9,7 @@ cd .dots
 ./install
 ```
 
-Hint:
+Notes:
 On Debian 'sudo' must be installed before executing the script.
 
 ### Additional steps
@@ -27,3 +17,13 @@ Install node lts with Fast Node Manager
 ```bash
 fnm install --lts
 ```
+
+### Packages that will be installed
+- git
+- curl
+- unzip
+- zsh
+- neovim
+- bat
+- stow
+- Fast Node Manager (fnm)
