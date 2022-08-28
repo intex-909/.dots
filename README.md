@@ -1,4 +1,4 @@
-## Installation script for fresh installed debian based machines
+## Install base packages and zsh in fresh debian based machines
 
 ### Usage:
 Clone repository into home directory.  
