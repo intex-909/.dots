@@ -6,7 +6,7 @@ Execute script as normal user (not as root)
 ```bash
 git clone https://github.com/intex-909/.dots.git
 cd .dots
-./install
+./install.sh
 ```
 After installation zsh will be the default shell.
 
