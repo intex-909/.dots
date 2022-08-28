@@ -1,13 +1,14 @@
 ## Installation script for fresh installed debian based machines
 
 ### Usage:
-Clone repository into home directory
+Clone repository into home directory.  
 Execute script as normal user (not as root)
 ```bash
 git clone https://github.com/intex-909/.dots.git
 cd .dots
 ./install
 ```
+After installation zsh will be the default shell.
 
 Notes:
 On Debian 'sudo' must be installed before executing the script.
@@ -18,7 +19,7 @@ Install node lts with Fast Node Manager
 fnm install --lts
 ```
 
-### Packages that will be installed
+### Packages
 - git
 - curl
 - unzip
@@ -27,3 +28,9 @@ fnm install --lts
 - bat
 - stow
 - Fast Node Manager (fnm)
+
+### Zsh plugins
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-completion](https://github.com/zsh-users/zsh-completions)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [zsh-autopair](https://github.com/hlissner/zsh-autopair)
