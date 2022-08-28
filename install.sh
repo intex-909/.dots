@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo -u $USER mkdir -p .config
+sudo -u $USER mkdir -p -m=00755 /home/$USER/.config
 
 # install packages
 sudo apt install -y \
